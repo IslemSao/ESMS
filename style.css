@@ -1,3 +1,601 @@
-body{
-    background-color: red;
+@font-face {
+    font-family: 'Tele-Marines';
+    /* Replace 'YourCustomFont' with your preferred font name */
+    src: url('./assets/telemarines1.ttf');
+}
+
+@font-face {
+
+    font-family: 'Tele-Marines-bold';
+    /* Replace 'YourCustomFont' with your preferred font name */
+    src: url('./assets/telemarinesbold1.ttf');
+}
+
+@media (min-width : 390px) {
+
+    body {
+        margin: 0;
+        background-color: #012F46;
+        padding: 0;
+    }
+
+    .elipse-1 {
+        position: absolute;
+        width: 620px;
+        height: 510px;
+        right: 0;
+        top: 155vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 1.svg') right no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .elipse-7 {
+        position: absolute;
+        width: 450px;
+        height: 400px;
+        left: 0;
+        top: 90vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 7.svg') no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .elipse-4 {
+        position: absolute;
+        width: 320px;
+        height: 340px;
+        left: 0;
+        top: 260vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 4.svg') no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .elipse-9 {
+        position: absolute;
+        width: 410px;
+        height: 440px;
+        right: 0;
+        z-index: 0;
+        top: 370vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 9.svg') right no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .elipse-8 {
+        position: absolute;
+        width: 300px;
+        height: 320px;
+        left: 0;
+        top: 118vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 8.svg') no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .body {
+        padding-left: 8%;
+        padding-right: 8%;
+        font-family: 'Tele-Marines';
+
+    }
+
+    .taitle {
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .span_title {
+        color: #FFB703;
+        font-family: 'Tele-Marines';
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .paragraph {
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 150% */
+        letter-spacing: 0.6px;
+    }
+
+    .agenda {
+        padding: 25vh 10vw;
+    }
+
+    .agenda-item {
+        background: url('/assets/Background.svg') center center no-repeat;
+        /* Adjust background size to cover the entire div */
+        background-size: contain;
+        text-align: center;
+        /* Set the height of the div */
+        width: auto;
+        height: 223px;
+        padding: 2.2rem 22%;
+        padding-left: 25%;
+        position: relative;
+
+    }
+
+    .agenda-item div {
+        display: inline-block;
+        align-items: center;
+    }
+
+    .agenda-icon {
+        display: inline-block;
+        width: 19px;
+        height: 21px;
+        background: url('./assets/coolicon.svg') center center no-repeat;
+        background-size: contain;
+        vertical-align: middle;
+        /* Align vertically in the middle */
+    }
+
+    .agenda-time {
+        display: inline-block;
+        margin-left: 8px;
+        /* Adjust as needed to add space between icon and text */
+        vertical-align: middle;
+        /* Align vertically in the middle */
+        color: #FFB703;
+        font-family: 'Tele-Marines';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.48px;
+        text-transform: uppercase;
+    }
+
+    .agenda-description {
+        margin: auto 0;
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        vertical-align: middle;
+        width: 50%;
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 176.471% */
+        letter-spacing: 0.51px;
+        text-transform: capitalize;
+
+    }
+
+    .agenda-title {
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 1.92px;
+        text-transform: uppercase;
+        padding-bottom: 8%;
+    }
+
+    .agenda-title span {
+        color: #FFB703;
+    }
+
+    .judges {
+        padding: 25vh 10vw;
+    }
+
+    .judges-img {
+        position: relative;
+        width: 265px;
+        height: 296px;
+        background: url('./assets/Background-judges.svg') center center no-repeat;
+        background-size: contain;
+    }
+
+    .judges-img img {
+        position: absolute;
+        top: 10%;
+        right: 20%;
+        width: 250px;
+        height: 270px;
+        background-color: lightgray;
+    }
+
+    .judges-container {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        /* Adjust the gap value as needed */
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .judges-title {
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 1.92px;
+        text-transform: uppercase;
+        padding-bottom: 8%;
+
+    }
+
+    .judges-name {
+        color: #FFF;
+        font-family: 'Tele-Marines-Bold';
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 111.111% */
+        letter-spacing: 0.81px;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .judges-description {
+        text-align: center;
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 150% */
+        letter-spacing: 0.6px;
+        text-transform: capitalize;
+    }
+
+    .judges-title span {
+        color: #FFB703;
+    }
+
+    .sponsor {
+        background: #FFB703;
+        z-index: 100;
+        padding-top: 4vh;
+        padding-bottom: 10vh;
+    }
+
+    .sponsor-title {
+        text-align: center;
+        color: #000;
+        font-family: 'Tele-Marines-bold';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 62.5% */
+        letter-spacing: 1.44px;
+        text-transform: uppercase;
+        padding-bottom: 10vh;
+    }
+
+    .item {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+
+
+    body {
+        margin: 0;
+        background-color: #012F46;
+        padding: 0;
+    }
+
+    .elipse-1 {
+        position: absolute;
+        width: 280px;
+        height: 500px;
+        right: 0;
+        top: 90vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 1-sm.svg') right no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .elipse-7 {
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        left: 0;
+        top: 55vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 7-sm.svg') no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .elipse-4 {
+        width: 0;
+        height: 0;
+    }
+
+    .elipse-9 {
+        position: absolute;
+        width: 280px;
+        height: 300px;
+        right: 0;
+        top: 165vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 9.svg') right no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .elipse-8 {
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 0;
+    }
+
+    .body {
+        padding-left: 8%;
+        padding-right: 8%;
+        font-family: 'Tele-Marines';
+
+    }
+
+    .taitle {
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .span_title {
+        color: #FFB703;
+        font-family: 'Tele-Marines';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .teaser {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 0 10%;
+    }
+
+    Iframe {
+        width: 240px;
+        height: 123.07px;
+    }
+
+    .iframe-container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .paragraph {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Tele-Marines';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        /* 142.857% */
+        letter-spacing: 0.42px;
+    }
+
+    .agenda {
+        padding: 14vh 1vw;
+    }
+
+    .agenda-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Adjust the number of columns as needed */
+        gap: 20px;
+    }
+
+    .agenda-item {
+        background: url('/assets/Background-sm.svg') center center no-repeat;
+        /* Adjust background size to cover the entire div */
+        background-size: contain;
+        text-align: center;
+        /* Set the height of the div */
+        width: 120px;
+        height: 125px;
+        display: flex;
+        padding: 8%;
+        gap: 0;
+        /* Remove the space between flex items */
+        flex-direction: column;
+    }
+
+    .agenda-item div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 0;
+    }
+
+    .agenda-icon {
+        width: 13.412px;
+        height: 11.771px;
+        background: url('./assets/coolicon-sm.svg') center center no-repeat;
+        background-size: contain;
+        vertical-align: middle;
+        /* Align vertically in the middle */
+    }
+
+    .agenda-time {
+        color: #FFB703;
+        font-family: 'Tele-Marines';
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+    }
+
+    .agenda-description {
+        color: #FFF;
+        display: inline-block;
+        font-family: 'Tele-Marines';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        flex-grow: 1;
+        margin: 0;
+        width: 85%;
+        line-height: 20px;
+        /* 142.857% */
+        letter-spacing: 0.42px;
+        text-transform: capitalize;
+        -ms-flex-item-align: start;
+
+    }
+
+    .agenda-title {
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.72px;
+        text-transform: uppercase;
+    }
+
+    .agenda-title span {
+        color: #FFB703;
+    }
+
+    .judges {
+        padding: 5vh 1vw;
+    }
+
+    .judges-img {
+        position: relative;
+        width: 186px;
+        height: 215px;
+        background: url('./assets/Background-judges-sm.svg') center center no-repeat;
+        background-size: contain;
+    }
+
+    .judges-img img {
+        position: absolute;
+        top: 15%;
+        right: 20%;
+        width: 190px;
+        height: 205px;
+        background-color: lightgray;
+    }
+
+    .judges-container {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        /* Adjust the gap value as needed */
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .judges-title {
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.72px;
+        text-transform: uppercase;
+
+    }
+
+    .judges-name {
+        color: #FFF;
+        font-family: 'Tele-Marines-bold';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 125% */
+        letter-spacing: 0.72px;
+        text-transform: uppercase;
+
+    }
+
+
+    .judges-description {
+        color: #FFF;
+        font-family: Tele-Marines;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 214.286% */
+        letter-spacing: 0.42px;
+        text-transform: capitalize;
+    }
+
+    .judges-title span {
+        color: #FFB703;
+    }
+
+    .sponsor-title {
+        color: #000;
+        font-family: T'ele-Marines-Bold';
+        font-size: 24px;
+        font-style: normal;
+        padding-bottom: 3vh;
+        font-weight: 400;
+        line-height: 30px;
+        /* 125% */
+        letter-spacing: 0.72px;
+        text-transform: uppercase;
+    }
+    .sponsor {
+        padding-top: 2vh;
+        padding-bottom: 5vh;
+    }
 }
