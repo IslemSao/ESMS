@@ -1,0 +1,1228 @@
+@font-face {
+    font-family: 'Tele-Marines';
+    /* Replace 'YourCustomFont' with your preferred font name */
+    src: url('./assets/telemarines1.ttf');
+}
+
+@font-face {
+
+    font-family: 'Tele-Marines-bold';
+    /* Replace 'YourCustomFont' with your preferred font name */
+    src: url('./assets/telemarinesbold1.ttf');
+}
+
+section {
+    display: flex !important;
+
+    justify-content: center !important;
+
+    padding: 3vh 5vw;
+    width: 100% !important;
+    font-family: 'Tele-Marines';
+
+
+}
+
+.navbar-adjust {
+    padding-left: 20vw;
+}
+
+.nav {
+    font-family: 'Tele-Marines';
+    margin: 0 !important;
+    top: 0% !important;
+    position: relative !important;
+    width: 70vw;
+}
+
+.btn1 {
+    position: relative !important;
+    left: 10% !important;
+    width: 150px !important;
+    height: 43px !important;
+    color: #FFF;
+    font-family: 'Tele-Marines';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.4px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    background: #FFB703;
+    padding-top: 10px;
+}
+
+
+
+.cse-logo {
+    width: 160px;
+    height: 223px;
+}
+
+
+.solobyte-logo {
+    right: 20% !important;
+}
+
+
+
+.nav-link {
+    color: white !important;
+    font-family: 'Tele-Marines', sans-serif !important;
+}
+
+.btn {
+    background-color: #FDB614 !important;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.h1 {
+    font-family: 'TELE-MARINS', sans-serif !important;
+    position: absolute !important;
+    top: 20px !important;
+}
+
+.need {
+    padding-bottom: 15vh;
+}
+
+.welcome-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8vw;
+    margin: auto;
+    padding-left: 5vw;
+    padding-right: 1vw;
+    align-items: center;
+    background-color: #FFF;
+    background: url('/assets/Background-welcome.svg') no-repeat;
+    background-size: contain;
+    width: 930px;
+    height: 344px;
+
+
+}
+
+.OurLogos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10vw;
+    width: 450px;
+    justify-content: space-between;
+
+}
+
+.whole {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.qst {
+    color: white;
+    padding-top: 15vh;
+    /* height: 500px; */
+    font-size: 64px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cont {
+    color: #FFB600;
+    font-size: 64px;
+}
+
+.firstline {
+    align-items: center;
+}
+
+.firstline pre {
+
+    font-family: 'Tele-Marines-bold';
+}
+
+.qstabt {
+    color: white;
+    top: 12vh;
+}
+
+.spanabout {
+    margin-left: 20px;
+}
+
+.questions {
+    color: #FFB600;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    width: 568px;
+    height: 65px;
+
+}
+
+
+.twitt {
+    height: 55px;
+    width: 65px;
+}
+
+@media only screen and (max-width=600px) {
+
+    .qst {
+        font-size: 24px;
+        height: 52px;
+        width: 378px;
+    }
+
+    .cse {
+        width: 71px;
+        height: 94px;
+    }
+
+    .solo {
+        height: 103px;
+        width: 64px;
+    }
+
+    .cont {
+        font-size: 24px;
+        height: 26px;
+        width: 191px;
+    }
+
+    .socialmedia {
+        width: 261px;
+        height: 29.44px;
+    }
+}
+
+
+#home_page {
+    padding-bottom: 15vh;
+}
+
+@media (min-width : 390px) {
+    .cse {
+        height: 255px;
+        width: 183px;
+    }
+
+    .solo {
+        width: 110px;
+        height: 200px;
+    }
+
+    .cse {
+        width: 130px;
+        height: 200px;
+        
+    }
+
+
+    .btn2 {
+        height: 63px;
+        border-radius: 15px;
+        background: #FFB703;
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 4.4px;
+        text-transform: uppercase;
+        padding: 1rem;
+
+
+
+    }
+
+    .welcome-title {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Tele-Marines-bold';
+        font-size: 78px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .welcome-span {
+        color: #FFB703;
+        font-family: 'Tele-Marines-bold';
+        font-size: 78px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .welcome-description h5 {
+        color: #FFF;
+        text-align: center;
+        font-family: Tele-Marines;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 36px */
+        text-transform: uppercase;
+    }
+
+    .welcome-joinus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome-date {
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .welcome-cse-title {
+        color: #F8F8F8;
+        font-family: 'Tele-Marines-bold';
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        padding-bottom: 2.5vh;
+    }
+
+    .welcome-cse-p {
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 150% */
+        letter-spacing: 0.6px;
+    }
+
+
+
+    body {
+        margin: 0;
+        background-color: #012F46;
+        padding: 0;
+    }
+
+    .elipse-1 {
+        position: absolute;
+        width: 620px;
+        height: 510px;
+        right: 0;
+        top: 355vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 1.svg') right no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .elipse-3 {
+        position: absolute;
+        width: 520px;
+        height: 410px;
+        left: 0;
+        top: 37vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 3.svg') no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .elipse-11 {
+        position: absolute;
+        width: 620px;
+        height: 510px;
+        right: 0;
+        top: 15vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 1.svg') right no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+
+    .elipse-7 {
+        position: absolute;
+        width: 450px;
+        height: 400px;
+        left: 0;
+        top: 270vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 7.svg') no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .elipse-77 {
+        position: absolute;
+        width: 450px;
+        height: 400px;
+        right: 0;
+        top: 200vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 77.svg') right no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .elipse-4 {
+        position: absolute;
+        width: 320px;
+        height: 340px;
+        left: 0;
+        top: 400vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 4.svg') no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .elipse-44 {
+        position: absolute;
+        width: 320px;
+        height: 340px;
+        right: 0vw;
+        top: 40vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 44.svg') right no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .elipse-2 {
+        position: absolute;
+        width: 320px;
+        height: 340px;
+        left: 0vw;
+        top: 15vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 2.svg') no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .elipse-9 {
+        position: absolute;
+        width: 410px;
+        height: 440px;
+        right: 0;
+        z-index: 0;
+        top: 550vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 9.svg') right no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .elipse-8 {
+        position: absolute;
+        width: 300px;
+        height: 320px;
+        left: 0;
+        top: 300vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 8.svg') no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+
+    .elipse-88 {
+        position: absolute;
+        width: 300px;
+        height: 320px;
+        right: 0;
+        top: 230vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 88.svg') right no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .body {
+        padding-left: 8%;
+        padding-right: 8%;
+        font-family: 'Tele-Marines';
+
+    }
+
+    .taitle {
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .span_title {
+        color: #FFB703;
+        font-family: 'Tele-Marines';
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .paragraph {
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        padding-top: 2vh;
+        /* 150% */
+        letter-spacing: 0.6px;
+    }
+
+
+
+    .agenda {
+        padding: 25vh 10vw;
+    }
+
+    .agenda-item {
+        background: url('/assets/Background.svg') center center no-repeat;
+        /* Adjust background size to cover the entire div */
+        background-size: contain;
+        text-align: center;
+        /* Set the height of the div */
+        width: auto;
+        height: 223px;
+        padding: 2.2rem 22%;
+        padding-left: 25%;
+        position: relative;
+
+    }
+
+    .agenda-item div {
+        display: inline-block;
+        align-items: center;
+    }
+
+    .agenda-icon {
+        display: inline-block;
+        width: 19px;
+        height: 21px;
+        background: url('./assets/coolicon.svg') center center no-repeat;
+        background-size: contain;
+        vertical-align: middle;
+        /* Align vertically in the middle */
+    }
+
+    .agenda-time {
+        display: inline-block;
+        margin-left: 8px;
+        /* Adjust as needed to add space between icon and text */
+        vertical-align: middle;
+        /* Align vertically in the middle */
+        color: #FFB703;
+        font-family: 'Tele-Marines';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.48px;
+        text-transform: uppercase;
+    }
+
+    .agenda-description {
+        margin: auto 0;
+        position: absolute;
+        top: 40%;
+        text-align: center;
+        vertical-align: middle;
+        width: 50%;
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 176.471% */
+        letter-spacing: 0.51px;
+        text-transform: capitalize;
+
+    }
+
+    .agenda-title {
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 1.92px;
+        text-transform: uppercase;
+        padding-bottom: 8%;
+    }
+
+    .agenda-title span {
+        color: #FFB703;
+    }
+
+    .judges {
+        padding: 0vh 10vw;
+        padding-bottom: 25vh;
+    }
+
+    .judges-img {
+        position: relative;
+        width: 265px;
+        height: 296px;
+        background: url('./assets/Background-judges.svg') center center no-repeat;
+        background-size: contain;
+    }
+
+    .judges-img img {
+        position: absolute;
+        top: 10%;
+        right: 20%;
+        width: 250px;
+        height: 270px;
+        background-color: lightgray;
+    }
+
+    .judges-container {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        /* Adjust the gap value as needed */
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .judges-title {
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 1.92px;
+        text-transform: uppercase;
+        padding-bottom: 8%;
+
+    }
+
+    .judges-name {
+        color: #FFF;
+        font-family: 'Tele-Marines-Bold';
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 111.111% */
+        letter-spacing: 0.81px;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .judges-description {
+        text-align: center;
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 150% */
+        letter-spacing: 0.6px;
+        text-transform: capitalize;
+    }
+
+    .judges-title span {
+        color: #FFB703;
+    }
+
+    .sponsor {
+        background: #FFB703;
+        z-index: 100;
+        padding-top: 4vh;
+        padding-bottom: 10vh;
+    }
+
+    .sponsor-title {
+        text-align: center;
+        color: #000;
+        font-family: 'Tele-Marines-bold';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 62.5% */
+        letter-spacing: 1.44px;
+        text-transform: uppercase;
+        padding-bottom: 10vh;
+    }
+
+    .item {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+
+
+    .socialmedia {
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .socialmedia a img {
+        width: 27.57px;
+        height: 25.871px;
+        flex-shrink: 0;
+    }
+
+    .cont {
+        color: #FFB600;
+        text-align: center;
+        font-family: 'Tele-Marines-bold';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%;
+        /* 26.4px */
+        letter-spacing: 0.72px;
+        text-transform: uppercase;
+    }
+
+    #cse {
+        width: 71px;
+        height: 94px;
+    }
+
+    #solo {
+        width: 71px;
+        height: 94px;
+    }
+
+    .qst {
+        height: auto;
+        color: #FFF;
+        text-align: center;
+        font-family: 'Tele-Marines-bold';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%;
+        /* 26.4px */
+        letter-spacing: 0.72px;
+        text-transform: uppercase;
+    }
+
+    .firstline {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Tele-Marines-bold';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%;
+        /* 26.4px */
+        letter-spacing: 0.72px;
+        text-transform: uppercase
+    }
+
+    .welcome-title {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Tele-Marines-bold';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        padding-top: 5vh;
+    }
+
+    .welcome-span {
+        color: #FFB703;
+        font-family: 'Tele-Marines-bold';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+
+    }
+
+    .elipse-11 {
+        width: 0;
+        height: 0;
+    }
+
+
+    .elipse-44 {
+        width: 0;
+        height: 0;
+    }
+
+    .elipse-77 {
+        position: absolute;
+        width: 350px;
+        height: 300px;
+        right: 0;
+        top: 130vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 77.svg') right no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+
+    .elipse-88 {
+        width: 0;
+        height: 0;
+    }
+
+
+    .elipse-11 {
+        position: absolute;
+        width: 520px;
+        height: 410px;
+        right: 0;
+        top: 23vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 1-sm.svg') right no-repeat;
+        background-size: contain;
+    }
+
+    .elipse-2 {
+        width: 0;
+        height: 0;
+    }
+
+
+    .elipse-3 {
+        position: absolute;
+        width: 420px;
+        height: 350px;
+        left: 0;
+        top: 37vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 3-sm.svg') no-repeat;
+        background-size: contain;
+    }
+
+
+    .btn2 {
+        border-radius: 15px;
+        background: #FFB703;
+        width: 240px;
+        height: 37px;
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2.8px;
+        text-transform: uppercase;
+        padding: 0;
+
+    }
+
+    .welcome-description {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Tele-Marines';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        padding-bottom: 40px;
+    }
+
+    .welcome-date {
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .welcome-container {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        gap: 2vw;
+        margin: auto;
+        padding: 3vh 3vw;
+        padding-left: 3vw;
+        padding-top: 6vh;
+        padding-right: 2vw;
+        align-items: center;
+        background-color: #FFF;
+        background: url('/assets/Background-welcome-sm.svg') no-repeat;
+        background-size: contain;
+        width: 310px;
+        height: 357px;
+
+    }
+
+    .cse-logo {
+        width: 69px;
+        height: 92px;
+    }
+
+    .welcome-cse-title {
+        color: #F8F8F8;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        padding-bottom: 2vh;
+    }
+
+    .welcome-cse-p {
+        color: #FFF;
+        font-family: Tele-Marines;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 150% */
+        letter-spacing: 0.6px;
+    }
+
+
+    body {
+        margin: 0;
+        background-color: #012F46;
+        padding: 0;
+    }
+
+    .elipse-1 {
+        position: absolute;
+        width: 280px;
+        height: 500px;
+        right: 0;
+        top: 210vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 1-sm.svg') right no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .elipse-7 {
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        left: 0;
+        top: 205vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 7-sm.svg') no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .elipse-4 {
+        width: 0;
+        height: 0;
+    }
+
+    .elipse-9 {
+        position: absolute;
+        width: 280px;
+        height: 300px;
+        right: 0;
+        top: 285vh;
+        display: inline-block;
+        background: url('/assets/Ellipse\ 9.svg') right no-repeat;
+        background-size: contain;
+        /* or 'contain' depending on your preference */
+    }
+
+    .elipse-8 {
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 0;
+    }
+
+    .body {
+        padding-left: 8%;
+        padding-right: 8%;
+        font-family: 'Tele-Marines';
+
+    }
+
+    .taitle {
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .span_title {
+        color: #FFB703;
+        font-family: 'Tele-Marines';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .teaser {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 0 10%;
+    }
+
+    .iframe {
+        width: 240px;
+        height: 123.07px;
+    }
+
+    .iframe-container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .paragraph {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Tele-Marines';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        /* 142.857% */
+        letter-spacing: 0.42px;
+    }
+
+    .agenda {
+        padding: 14vh 1vw;
+    }
+
+    .agenda-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-content: center;
+        /* Adjust the number of columns as needed */
+        justify-content: space-around;
+    }
+
+    .agenda-parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .agenda-item {
+        background: url('/assets/Background-sm.svg') center center no-repeat;
+        /* Adjust background size to cover the entire div */
+        background-size: contain;
+        text-align: center;
+        /* Set the height of the div */
+        width: 120px;
+        height: 125px;
+        display: flex;
+        padding: 8%;
+        gap: 0;
+        /* Remove the space between flex items */
+        flex-direction: column;
+    }
+
+    .agenda-item div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 0;
+    }
+
+    .agenda-icon {
+        width: 13.412px;
+        height: 11.771px;
+        background: url('./assets/coolicon-sm.svg') center center no-repeat;
+        background-size: contain;
+        vertical-align: middle;
+        /* Align vertically in the middle */
+    }
+
+    .agenda-time {
+        color: #FFB703;
+        font-family: 'Tele-Marines';
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+    }
+
+    .agenda-description {
+        color: #FFF;
+        display: inline-block;
+        font-family: 'Tele-Marines';
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        flex-grow: 1;
+        margin: 0;
+        width: 85%;
+        line-height: 15px;
+        /* 142.857% */
+        letter-spacing: 0.42px;
+        text-transform: capitalize;
+        -ms-flex-item-align: start;
+
+    }
+
+    .agenda-title {
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.72px;
+        text-transform: uppercase;
+    }
+
+    .agenda-title span {
+        color: #FFB703;
+    }
+
+    .judges {
+        padding: 5vh 1vw;
+    }
+
+    .judges-img {
+        position: relative;
+        width: 186px;
+        height: 215px;
+        background: url('./assets/Background-judges-sm.svg') center center no-repeat;
+        background-size: contain;
+    }
+
+    .judges-img img {
+        position: absolute;
+        top: 15%;
+        right: 20%;
+        width: 190px;
+        height: 205px;
+        background-color: lightgray;
+    }
+
+    .judges-container {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        /* Adjust the gap value as needed */
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .judges-title {
+        color: #FFF;
+        font-family: 'Tele-Marines';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.72px;
+        text-transform: uppercase;
+
+    }
+
+    .judges-name {
+        color: #FFF;
+        font-family: 'Tele-Marines-bold';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 125% */
+        letter-spacing: 0.72px;
+        text-transform: uppercase;
+
+    }
+
+
+    .judges-description {
+        color: #FFF;
+        font-family: Tele-Marines;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 214.286% */
+        letter-spacing: 0.42px;
+        text-transform: capitalize;
+    }
+
+    .judges-title span {
+        color: #FFB703;
+    }
+
+    .sponsor-title {
+        color: #000;
+        font-family: T'ele-Marines-Bold';
+        font-size: 24px;
+        font-style: normal;
+        padding-bottom: 3vh;
+        font-weight: 400;
+        line-height: 30px;
+        /* 125% */
+        letter-spacing: 0.72px;
+        text-transform: uppercase;
+    }
+
+    .sponsor {
+        padding-top: 2vh;
+        padding-bottom: 5vh;
+    }
+}
